@@ -1,0 +1,10 @@
+use('login')
+ let Neider ={
+    first_name : "Neider Damian",
+    last_name: "Oswaldo Medina",
+    age:"30 años",
+    phone: "31253889655"
+
+
+ }
+ db.Usuarios.insertOne(Neider)

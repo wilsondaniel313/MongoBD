@@ -1,0 +1,15 @@
+use('sample_training');
+
+db.zips.find({nombre: "Revolver" });
+
+let Wilson ={
+    firts_name: "Wilson Daniel",
+    last_name: "Osma Carrillo",
+    age: "18 años",
+    address: "cr 93 132 81",
+    country: "Colombia",
+    phone: 3137790495
+}
+db.zips.insertOne(Wilson);
+
+db.zips.find({firts_name: "Wilson Osma"});
